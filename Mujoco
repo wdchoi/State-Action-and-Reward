@@ -1,0 +1,32 @@
+EnvPendulum
+States
+- Slider Joint 1 (-1,1)
+- Joint 2 (-1.5732,1.5732)
+- slider joint 1 Linear Velocity(5,-5)
+- Joint 1 Linear Velocity(-7,7)
+
+
+EnvHopper
+States
+- Position_X
+- Height
+- slider joint 3 Angle
+- thigh_joint 1 Angle
+- leg_joint 1 Angle
+- foot_joint 1 Angle
+- slider joint 1 Angle Velocity
+- slider joint 2 Angle Velocity
+- slider joint 3 Angle Velocity
+- thigh_joint 1 Angle Velocity
+- leg_joint 1 Angle Velocity
+- foot_joint 1 Angle Velocity
+
+
+EnvHumanoid
+States:
+-Angle 24개
+-Velocity 23개
+-com-based Velocity 14*6 = 84개
+-com-based body inertia and mass 14*10 = 140개
+-actuator force 23개
+-com-based external force on body 14*6 = 84개
